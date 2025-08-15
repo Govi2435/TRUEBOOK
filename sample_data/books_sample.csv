@@ -1,0 +1,6 @@
+book_id,title,author,country,language,genres,themes,year,avg_rating,rating_count,description
+1,Akata Witch,Nnedi Okorafor,Nigeria,en,Fantasy|YA,Afrofuturism|Coming-of-age,2011,4.1,25000,A Nigerian-American girl discovers she is a Leopard Person with magical powers.
+2,Zahrah the Windseeker,Nnedi Okorafor,Nigeria,en,Fantasy,Adventure|Coming-of-age,2005,4.0,8000,Zahrah navigates a fantastical jungle with unique flora and fauna.
+3,Rosewater,Tade Thompson,Nigeria,en,Science Fiction,Afrofuturism|Aliens,2016,4.0,12000,A city in Nigeria thrives around an alien biodome with psychic phenomena.
+4,Kafka on the Shore,Haruki Murakami,Japan,ja,Magical Realism|Literary,Surrealism|Coming-of-age,2002,4.1,400000,A metaphysical odyssey blending reality and dreamscapes in Japan.
+5,1Q84,Haruki Murakami,Japan,ja,Dystopian|Literary,Parallel worlds|Mystery,2009,3.9,350000,An alternate 1984 Tokyo where reality subtly shifts.

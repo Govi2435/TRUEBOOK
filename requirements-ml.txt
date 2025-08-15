@@ -1,0 +1,10 @@
+# Optional heavy dependencies (install only if you need full ML/DL stack)
+# May take several minutes to install and download models
+transformers>=4.41.0,<5.0.0
+sentence-transformers>=3.0.0,<4.0.0
+torch>=2.3.0
+faiss-cpu>=1.8.0
+hnswlib>=0.8.0
+redis>=5.0.0
+neo4j>=5.20.0
+onnxruntime>=1.18.0
