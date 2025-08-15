@@ -1,0 +1,31 @@
+app:
+  name: global-book-recommender
+  environment: dev
+  default_limit: 10
+
+recommendation:
+  hybrid_alpha: 0.6  # weight for content-based vs collaborative
+  enable_deep_embeddings: false
+  diversity_weight: 0.15
+  min_year: 1800
+  max_year: 2100
+
+paths:
+  data_dir: sample_data
+  books_csv: sample_data/books_sample.csv
+  interactions_csv: sample_data/user_interactions_sample.csv
+  ann_index_dir: data/indices
+
+ann:
+  engine: auto  # auto|faiss|hnsw|none
+  top_k: 50
+
+graph:
+  uri: bolt://localhost:7687
+  user: neo4j
+  password: password
+  enabled: false
+
+cache:
+  redis_url: redis://localhost:6379/0
+  enabled: false
